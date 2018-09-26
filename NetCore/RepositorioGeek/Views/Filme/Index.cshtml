@@ -1,0 +1,42 @@
+@model FilmeViewModel;
+
+@{
+    ViewData["Title"] = "Gerenciar Filmes";
+}
+
+<div class="panel panel-default filme-panel">
+    <div class="panel-heading">@ViewData["Title"]</div>
+
+    <table class="table table-houver">
+        <thead>
+            <tr>
+                <td>&#x2714;</td>
+                <td>Filme</td>
+                <td>Data Cadastro</td>
+                <td>Classificação</td>
+                <td>Data Conclusão</td>
+            </tr>
+        </thead>
+
+        @foreach (var item in Model.filmes)
+        {
+            <tr>
+                <td><input type="checkbox" name="@item.Id" value="@item.Concluido" checked="@item.Concluido" class="done-checkbox" /></td>
+                <td>@item.Nome</td>
+                <td>@String.Format("{0:dd/MM/yyy}", @item.DataCadastro)</td>
+                <td>@item.Classificacao</td>
+                <td>@String.Format("{0:dd/MM/yyy}", @item.DataConclusao)</td>
+                <td>
+                    <a asp-action="AtualizarFilme" asp-route-id="@item.Id">Atualizar</a>
+                    <a asp-action="DeletarFilme" asp-route-id="@item.Id">Deletar</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+    <div class="panel-footer add-item-form">
+        <form asp-controller="Filme" asp-action="AdicionarFilme" method="GET">
+            <button type="submit" class="btn btn-success">Incluir</button>
+        </form>
+    </div>
+</div>

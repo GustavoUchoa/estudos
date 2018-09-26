@@ -1,0 +1,51 @@
+@model Filme
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title>Atualizar Filme</title>        
+    </head>
+
+    <h2>Deletar Filme</h2>
+    <hr />
+
+    <body>
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Concluido)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Concluido)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Classificacao)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Classificacao)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.DataCadastro)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.DataCadastro)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.DataConclusao)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.DataConclusao)
+            </dd>
+        </dl>            
+        
+        <form asp-action="DeletarFilme">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Deletar Filme" class="btn btn-danger" /> | <a asp-action="Index">Retornar</a>
+        </form>
+    </body>
+</html>
