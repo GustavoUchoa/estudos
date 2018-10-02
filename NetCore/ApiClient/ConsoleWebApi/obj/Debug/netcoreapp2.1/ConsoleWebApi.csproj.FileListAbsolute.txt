@@ -1,0 +1,11 @@
+C:\Users\gusta\OneDrive\Documentos\Repositorios\GitHub\estudos\NetCore\ApiClient\ConsoleWebApi\obj\Debug\netcoreapp2.1\ConsoleWebApi.csprojAssemblyReference.cache
+C:\Users\gusta\OneDrive\Documentos\Repositorios\GitHub\estudos\NetCore\ApiClient\ConsoleWebApi\obj\Debug\netcoreapp2.1\ConsoleWebApi.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Documentos\Repositorios\GitHub\estudos\NetCore\ApiClient\ConsoleWebApi\obj\Debug\netcoreapp2.1\ConsoleWebApi.AssemblyInfoInputs.cache
+C:\Users\gusta\OneDrive\Documentos\Repositorios\GitHub\estudos\NetCore\ApiClient\ConsoleWebApi\obj\Debug\netcoreapp2.1\ConsoleWebApi.AssemblyInfo.cs
+C:\Users\gusta\OneDrive\Documentos\Repositorios\GitHub\estudos\NetCore\ApiClient\ConsoleWebApi\bin\Debug\netcoreapp2.1\ConsoleWebApi.deps.json
+C:\Users\gusta\OneDrive\Documentos\Repositorios\GitHub\estudos\NetCore\ApiClient\ConsoleWebApi\bin\Debug\netcoreapp2.1\ConsoleWebApi.runtimeconfig.json
+C:\Users\gusta\OneDrive\Documentos\Repositorios\GitHub\estudos\NetCore\ApiClient\ConsoleWebApi\bin\Debug\netcoreapp2.1\ConsoleWebApi.runtimeconfig.dev.json
+C:\Users\gusta\OneDrive\Documentos\Repositorios\GitHub\estudos\NetCore\ApiClient\ConsoleWebApi\bin\Debug\netcoreapp2.1\ConsoleWebApi.dll
+C:\Users\gusta\OneDrive\Documentos\Repositorios\GitHub\estudos\NetCore\ApiClient\ConsoleWebApi\bin\Debug\netcoreapp2.1\ConsoleWebApi.pdb
+C:\Users\gusta\OneDrive\Documentos\Repositorios\GitHub\estudos\NetCore\ApiClient\ConsoleWebApi\obj\Debug\netcoreapp2.1\ConsoleWebApi.dll
+C:\Users\gusta\OneDrive\Documentos\Repositorios\GitHub\estudos\NetCore\ApiClient\ConsoleWebApi\obj\Debug\netcoreapp2.1\ConsoleWebApi.pdb
